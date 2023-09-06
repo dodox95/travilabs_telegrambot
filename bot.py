@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = '6348361586:AAFuVIT4IWgZiFDYD0oZTcJfgIKWvRGLjM0'
+TOKEN = ''
 
 # Function responsible for retrieving the coin price.
 def get_price(symbol: str) -> float:
